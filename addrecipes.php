@@ -96,7 +96,7 @@ if($errors){
     }
     
     $results = mysqli_query($link, $sql);
-    //check if query is successful
+    
     if(!$results){
         echo '<div class=" alert alert-danger">There was an error! The recipe could not be added to database!</div>';        
     }
